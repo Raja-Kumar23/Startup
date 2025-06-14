@@ -1,15 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Theme Toggle
+
+        //  Dark And LIght MOde Toggle 
+
   const themeToggleBtn = document.getElementById("theme-toggle-btn")
   const mobileThemeToggleBtn = document.getElementById("mobile-theme-toggle-btn")
   const body = document.body
 
-  // Check for saved theme preference or use preferred color scheme
+  
   const savedTheme = localStorage.getItem("theme")
   if (savedTheme) {
     body.classList.toggle("dark-mode", savedTheme === "dark")
   } else {
-    // Default to dark mode as shown in the app screenshot
+    
     body.classList.add("dark-mode")
   }
 

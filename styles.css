@@ -1,4 +1,4 @@
-/* Base Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -57,7 +57,9 @@ img {
   height: auto;
 }
 
-/* Section Headers */
+ /* Top Header Section */
+
+
 .section-header {
   text-align: center;
   margin-bottom: 60px;
@@ -373,6 +375,7 @@ body.dark-mode #mobile-theme-toggle-btn {
 }
 
 /* Hero Section */
+
 .hero {
   padding: 80px 0;
   background-color: var(--bg-color);
@@ -1876,7 +1879,7 @@ body.dark-mode .feature-card p {
 /* Quick Exit Button - Fix positioning */
 .quick-exit-button {
   position: fixed;
-  bottom: 75px; /* Increased to avoid footer overlap */
+  bottom: 75px; 
   right: 30px;
   z-index: 999;
 }
